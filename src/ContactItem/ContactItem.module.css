@@ -1,0 +1,27 @@
+.text{
+    font-size: 30px;
+}
+.item{
+    display:flex;
+    justify-content: space-between;
+}
+.button{
+ 
+        background-color: transparent;
+        border: 2px solid #e7e7e7;
+        border-radius: 3px;
+        color: white;
+        padding: 0px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        height: 30px;
+
+}
+.button:hover{
+    border-color: orange;
+    color: orange
+}
